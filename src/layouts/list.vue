@@ -1,6 +1,6 @@
 <template>
   <div class="layout-list">
-  <nuxt></nuxt>
+    <nuxt></nuxt>
     <copyright></copyright>
   </div>
 </template>
@@ -19,8 +19,9 @@ export default {
 }
 </script>
 <style lang="less">
-.layout-list{
-    width:100%;
-    padding:30px;
+.layout-list {
+  width: 100%;
+  min-width: 900px;
+  padding: 30px;
 }
 </style>
